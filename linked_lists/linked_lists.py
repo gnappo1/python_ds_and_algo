@@ -95,8 +95,8 @@
 # For modern systems, optimize linked lists using techniques like tail pointers, memory pooling, or skip lists, but always evaluate if arrays or other dynamic data structures can solve the problem more efficiently.
 
 class ListNode(object):
-    def __init__(self, val:any=0, next:'ListNode'=None):
-        self.val = val
+    def __init__(self, value:any=0, next:'ListNode'=None):
+        self.value = value
         self.next = next
 
 class LinkedList:
